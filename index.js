@@ -68,7 +68,7 @@ class TeqMix {
             .js(this.options.entry.js, this.options.destination.js);
 
         if (this.options.vendor) {
-            mix.extract(Object.keys(require('./package').dependencies), this.options.publicPath + '/' + this.options.vendor);
+            mix.extract(Object.keys(require('./package').dependencies), this.options.publicPath + '/' + this.options.vendor || 'vendor.js');
         }
 
         mix
