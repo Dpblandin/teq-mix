@@ -1,0 +1,23 @@
+{
+  "name": "teq-mix",
+  "version": "0.1.1",
+  "description": "Laravel mix tequila workflow as an extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dpblandin/teq-mix.git"
+  },
+  "keywords": [],
+  "author": "David Pascaud-Blandin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dpblandin/teq-mix/issues"
+  },
+  "homepage": "https://github.com/Dpblandin/teq-mix#readme",
+  "peerDependencies": {
+    "laravel-mix": "^2.1.7"
+  }
+}
